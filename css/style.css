@@ -1,0 +1,120 @@
+body {
+    background-color: #111;
+    color: #f5f5f5;
+    font: 18px Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #d7e3ff;
+    border-style: dashed;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.home-logo {
+    display: block;
+    margin: 100px auto;
+    width: min(600px, 100%);
+}
+
+.test-content {
+    background-color: #787878;
+    color: #111;
+    padding-bottom: 2rem;
+}
+
+.test-content h1,
+.test-content h3,
+.test-content h4,
+.test-content h6 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.posting-container {
+    margin: 2rem auto;
+    max-width: 720px;
+    padding: 0 1rem;
+}
+
+.posting-container h1,
+.posting-container h2 {
+    color: #d7e3ff;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+textarea {
+    border: 2px solid #333;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font: 14px Arial, sans-serif;
+    padding: 12px;
+    width: 100%;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+button {
+    background: #183b76;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+}
+
+button:hover,
+button:focus-visible {
+    background: #2456a0;
+}
+
+.post {
+    background: #f5f5f5;
+    border-radius: 6px;
+    color: #222;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.post-title {
+    color: #111;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.post-content {
+    color: #333;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+/*video
+ {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color:blueviolet;
+
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: orange;}
+} */
